@@ -271,7 +271,9 @@
         margin-top: 5px;
         margin-bottom: 8px;
       }
-
+.experience-item{
+  animation: myAnim 6s ease 3s infinite normal forwards;
+}
       .experience-section {
         padding: 8px 0;
       }
