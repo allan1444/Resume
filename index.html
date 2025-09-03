@@ -5,146 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Allan Mwamuye - Resume</title>
-    <!--add inline css stylesheet-->
-    <!--<style>
-      /* 
- Template by 
-  https://webportfolios.dev | MIT License
-*/
-      :root[data-theme="light"] {
-        --bg-color: #ffffff;
-        --text-color: #000000;
-        --accent-color: #5c98ff;
-        --skill-bg-color: #dddddd;
-        --svg-color: #767676;
-      }
-
-      :root[data-theme="dark"] {
-        --bg-color: #0f0f0f;
-        --text-color: #f5f5f5;
-        --accent-color: #5c98ff;
-        --skill-bg-color: #2a2a2a;
-        --svg-color: #b0b0b0;
-      }
-
-      #light-icon,
-      #dark-icon {
-        display: none;
-      }
-
-      [data-theme="light"] #light-icon {
-        display: inline;
-      }
-
-      [data-theme="dark"] #dark-icon {
-        display: inline;
-      }
-
-      body {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 60px 40px;
-        background-color: var(--bg-color);
-        color: var(--text-color);
-      }
-
-      /* Lists */
-      .socials-list,
-      .project-skills,
-      .project-links-list {
-        padding: 0px 0px;
-        display: flex;
-        gap: 10px;
-      }
-
-      /* Removing defaults */
-      ul li {
-        list-style: none;
-      }
-
-      button {
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        cursor: pointer;
-        outline: inherit;
-      }
-
-      .socials-item a svg,
-      .project-links-item a svg {
-        color: var(--svg-color);
-      }
-
-      .socials-item a svg:hover,
-      .project-links-item a svg:hover {
-        color: var(--accent-color);
-        cursor: pointer;
-      }
-
-      .name {
-        font-size: 27px;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-
-      .header {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-      }
-
-      .h1 {
-        font-size: 27px;
-        align-self: center;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-
-      .description {
-        font-size: 19px;
-        margin-top: 8px;
-        margin-bottom: 0px;
-      }
-
-      h2 {
-        font-size: 19px;
-      }
-
-      .experience-section {
-        padding: 8px 0;
-      }
-
-      .experience-job-title {
-        margin-bottom: 2px;
-      }
-
-      .experience-job-info {
-        margin-top: 12px;
-      }
-
-      .project-skills li {
-        background-color: var(--skill-bg-color);
-        color: var(--svg-color);
-        padding: 2px 8px;
-        border-radius: 2px;
-      }
-
-      .project-title {
-        margin-bottom: 8px;
-      }
-
-      .project-description {
-        margin-top: 8px;
-      }
-    </style> -->
+    <!--external css stylesheet-->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
-      <div class="header">
+      <div>
         <h1 class="name">Allan Mwamuye</h1>
         <button id="theme-toggle" aria-label="Toggle Theme">
           <!-- Light Mode SVG -->
@@ -213,7 +80,7 @@
         </script>
       </div>
       <p class="description">
-        Frontend developer @ <span class="link">Amazon</span>
+        ICT Helpdesk @ <a href="https://www.oshochem.com/" target="_blank" class="link">Osho Chemicals Ltd</span>
       </p>
     </header>
     <ul class="socials-list" aria-label="Social Links">
@@ -305,6 +172,38 @@
     </ul>
     <section class="experience-section" aria-label="Experience">
       <!-- Reusable experience element(s) -->
+      <div class="career-objectives">
+        <h2 class="career-objectives">Career Objectives</h2>
+        <p class="career-objectives">
+          I am results-driven ICT professional with broadband expertise in
+          cross-functional IT methodologies and technicalities. I am adaptable
+          and with a knack for handling all duties delegated to me with accuracy
+          and utmost professionalism. I have gained transferable skills in;
+          system administration, network administration, network security, user
+          support and technical support. Dedicated and detail-oriented Network
+          Administrator and ICT Helpdesk Support professional seeking to
+          leverage technical expertise in managing networks, troubleshooting
+          systems, and delivering reliable user support. Committed to ensuring
+          secure, efficient IT operations and providing excellent service to
+          meet organizational goals.
+        </p>
+      </div>
+      <div>
+        <h2 class="educational-background">Educational Background</h2>
+        <p class="educational-background">
+          Bachelor of Science in Information Technology - Kabarak University (KABU) - 2015 to 2018
+        </p>
+      </div>
+      <div class="certifiations" text-weight="bold">
+        <h2 class="certifications">
+        </i>Certifications</h2
+        <ol>
+          <li>Fortinet Certified Associate Cybersecurity</li>
+          <li>Fortinet Fortigate 7.4 Operator</li>
+          <li>Fortinet Certified Fundamentals Cybersecurity </li>
+          <li>Cisco Certified Networking Associate (CCNA) - 2018</li>
+        </ol>
+      </div>
       <div class="experience-item">
         <h2 class="experience-job-title">IT specialist</h2>
         <p class="experience-job-info">amazon.com 2025 - present</p>
@@ -318,17 +217,49 @@
         <p class="experience-job-info">amazon.com 2025 - present</p>
       </div>
     </section>
+    <!--Skills-->
+    
     <section class="projects-section" aria-label="Projects">
       <div class="project-card">
-        <h2 class="project-title">tasker.com</h2>
+        <h2 class="project-title">Skills</h2>
         <p class="project-description">
-          Organize your daily tasks and boost productivity.
+          Skills I have gained so far.
         </p>
         <ul class="project-skills">
-          <li>React.js</li>
+          <li>Endpoint Security Management</li>
+          <li>Incident Detection and Response</li>
+          <li>Firewall and Cloud Security</li>
+        </ul>
+
+    <!--Cloud Platforms-->
+    <section class="projects-section" aria-label="Projects">
+      <div class="project-card">
+        <h2 class="project-title">Cloud Platforms</h2>
+        <p class="project-description">
+          Cloud Platforms I use.
+        </p>
+        <ul class="project-skills">
+          <li>Microsoft Azure</li>
+          <li>Microsoft Defender</li>
+          <li>Microsoft Dynamics 365</li>
+        </ul>
+
+        <!--programming-->
+          <section class="projects-section" aria-label="Projects">
+      <div class="project-card">
+        <h2 class="project-title">Programming</h2>
+        <p class="project-description">
+          Languages and Tools I use.
+        </p>
+        <ul class="project-skills">
+          <li>Python</li>
+          <li>Bash</li>
+          <li>Html</li>
           <li>TailwindCSS</li>
-          <li>Firebase</li>
-          <li>Google Cloud</li>
+          <li>Javascript</li>
+          <li>Docker</li>
+          <li>Git</li>
+          <li>Github</li>
         </ul>
 
         <ul class="project-links-list">
@@ -376,5 +307,6 @@
         </ul>
       </div>
     </section>
+    <footer class="footer"> Allan Mwamuye © 2025</footer>
   </body>
 </html>
