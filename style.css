@@ -285,7 +285,7 @@
       }
 
       .project-skills li {
-        animation: myAnim 2s ease 0s 1 normal forwards;
+        animation: myAnim 2s ease 1s infinite normal forwards;
         background-color: var(--skill-bg-color);
         color: var(--svg-color);
         padding: 2px 8px;
