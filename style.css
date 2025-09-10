@@ -219,7 +219,6 @@
       }
 
       .name {
-        animation: myAnim 2s ease 1s infinite normal forwards;
         text-align: center;
         font-size: 28px;
         margin-top: 0;
@@ -298,7 +297,7 @@
       }
 
       .project-skills li {
-        animation: myAnim 20s ease 10s infinite normal forwards;
+        display: inline-block;
         background-color: var(--skill-bg-color);
         color: var(--svg-color);
         padding: 2px 8px;
